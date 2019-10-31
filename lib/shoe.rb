@@ -9,8 +9,6 @@ class Shoe
     BRANDS << brand if !BRANDS.include?(brand)
   end
   
-  
-  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
